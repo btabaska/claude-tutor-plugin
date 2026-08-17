@@ -1,0 +1,9 @@
+{
+  "name": "principal-track",
+  "displayName": "Principal Track Tutor",
+  "version": "1.0.0",
+  "description": "Personal tutor, quizmaster, and progress tracker for a 4-month principal-AI-engineer learning track.",
+  "author": { "name": "Brandon" },
+  "license": "MIT",
+  "keywords": ["learning", "tutor", "ai-engineering"]
+}
