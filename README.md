@@ -4,9 +4,18 @@ Personal Claude Code plugin: tutor, quizmaster, and progress tracker for Brandon
 
 ## Install
 
+Any machine (the repo is its own marketplace):
+
+```
+claude plugin marketplace add btabaska/claude-tutor-plugin
+claude plugin install principal-track@btabaska
+```
+
+Update later with `claude plugin marketplace update btabaska`, then `claude plugin update principal-track`.
+
+Local alternatives:
 - Try it: `claude --plugin-dir /path/to/principal-track`
-- Keep it: copy this folder to `~/.claude/skills/principal-track/` — auto-loads next session as `principal-track@skills-dir`
-- Share it: publish to a marketplace repo, then `claude plugin install principal-track@<marketplace>`
+- Or copy this folder to `~/.claude/skills/principal-track/` — auto-loads next session as `principal-track@skills-dir`
 
 Note: the persistent data directory is keyed by plugin id, which can differ between install methods. If you switch methods and `/principal-track:status` says there's no state, move your old folder under `~/.claude/plugins/data/` to the new id.
 

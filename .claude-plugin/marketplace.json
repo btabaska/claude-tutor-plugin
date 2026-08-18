@@ -1,0 +1,12 @@
+{
+  "name": "btabaska",
+  "description": "Brandon's personal Claude Code plugins.",
+  "owner": { "name": "Brandon" },
+  "plugins": [
+    {
+      "name": "principal-track",
+      "source": "./",
+      "description": "Personal tutor, quizmaster, and progress tracker for a 4-month principal-AI-engineer learning track."
+    }
+  ]
+}
